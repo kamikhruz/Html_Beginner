@@ -9,10 +9,62 @@
 
 .video-aur,
 .video-stats {
+    display: block;
     
 }
 
 .video-preview{
     display: inline-block;
     margin-right: 20px;
+    
+}
+.img-try{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 3px;
+    object-position: right;
+    
+}
+
+.p-try{
+    color: rgb(139, 134, 134);
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: 8px;
+}
+
+.button-try{
+   background-color: rgb(67, 133, 224);
+   color: white;
+   border: 0px;
+   border-radius: 2px;
+   vertical-align: 6px;
+   transition: box-shadow 0.5s, opacity 0.5s;
+}
+.button-try:hover{
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.527);
+}
+.button-try:active{
+    opacity: 0.7;
+}
+.div2{
+    width: 200px;
+    box-shadow: 0px 0px 2px 1px  rgba(128, 128, 128, 0.527);
+    height: 350px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.div-try{
+    box-shadow: 0px 1px 6px 1px rgba(128, 128, 128, 0.527);
+    width: 300px;
+    border-radius: 5px;
+    
 }
