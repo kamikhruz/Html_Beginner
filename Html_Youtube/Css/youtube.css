@@ -1,3 +1,7 @@
+p{
+    font-family: Roboto, Arial;
+    font-weight: 500;
+}
 .div_main{
     width: 400px;
     display: inline-block;
@@ -17,31 +21,35 @@
 
 .p_channel_image{
     display: inline-block;
-    vertical-align: 10px;
-    width: 300px;
-    font-size: 15px;
-    margin-left: 6px;
+    width: 230px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 6px;
     margin-top: 0px;
+    line-height: 16px;
+
+   
     
 }
 
 .imgcha{
-    width: 35px;
-    border-radius: 17.5px;
-    vertical-align: 8px;
+    width: 30px;
+    border-radius: 15px;
+    vertical-align: top;
 }
 
 .vide0_stats{
     
-    margin-top: 0px;
-    line-height: 15px;
-    font-size: smaller;
-    color: rgb(106, 106, 106);
-    vertical-align: top;
+    line-height: 6px;
+    font-size: 11px;
+    color: rgb(96, 96, 96);
     display: inline-block;
 }
 
 .div_channel_image{
     height: 40px;
     display: inline-block;
+    width: 35px;
+    vertical-align: top;
 }
+
