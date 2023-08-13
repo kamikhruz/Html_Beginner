@@ -5,6 +5,7 @@ p{
 .div_main{
     width: 400px;
     display: inline-block;
+    vertical-align: top;
     
 }
 
