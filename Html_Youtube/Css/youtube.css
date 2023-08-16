@@ -34,8 +34,8 @@ p{
 }
 
 .imgcha{
-    width: 30px;
-    border-radius: 15px;
+    width: 38px;
+    border-radius: 19px;
     vertical-align: top;
 }
 
@@ -54,3 +54,7 @@ p{
     vertical-align: top;
 }
 
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
