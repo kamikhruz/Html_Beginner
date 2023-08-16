@@ -1,20 +1,25 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.div_main{
+    
+    
+}
+
 p{
     font-family: Roboto, Arial;
     font-weight: 500;
 }
-.div_main{
-    width: 400px;
-    display: inline-block;
-    vertical-align: top;
-    
-}
-
 .div_thumbnail{
-    display: block;
+
 }
 
 .thumbnail{
-    width: 350px;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 7px;
     display: block;
