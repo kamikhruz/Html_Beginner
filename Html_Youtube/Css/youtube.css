@@ -10,11 +10,13 @@
     
     
     
+    
 }
 
 p{
     font-family: Roboto, Arial;
     font-weight: 400;
+    cursor: pointer;
 }
 .div_thumbnail{
     background-color: white;
@@ -26,6 +28,7 @@ p{
     margin-top: 10px;
     margin-bottom: 7px;
     display: block;
+    cursor: pointer;
 }
 
 .p_channel_image{
@@ -46,6 +49,7 @@ p{
     width: 38px;
     border-radius: 19px;
     vertical-align: top;
+    cursor: pointer;
 }
 
 .vide0_stats{
@@ -69,3 +73,4 @@ p{
     display: grid;
     grid-template-columns: 50px 1fr;
 }
+
