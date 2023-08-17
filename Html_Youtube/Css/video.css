@@ -1,7 +1,7 @@
 .main-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 25px;
     row-gap: 30px;
 }
 
