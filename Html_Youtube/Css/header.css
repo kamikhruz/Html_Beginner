@@ -22,12 +22,11 @@
 
 
 .voice-search-icon{
-    height: 37px;
+    height: 40px;
     width: 40px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(192, 192, 192);
+    border: none;
     border-radius: 20px;
+    background-color: rgba(245, 245, 245,);
 
 
     
@@ -35,6 +34,8 @@
 
 .voice-icon-image{
     height: 25px;
+    margin-top: 4px;
+
 
 }
 
@@ -83,7 +84,27 @@
 }
 
 .right-section{
-    background-color: lightblue;
-    width: 200px;
+    
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
 }
 
+.upload-icon{
+    height: 24px;
+}
+
+.youtube-apps-icon{
+    height: 24px;
+}
+
+.notifications-icon{
+    height: 24px;
+}
+
+.current-user-picture{
+    height: 32px;
+    border-radius: 16px;
+}
