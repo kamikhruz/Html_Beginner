@@ -74,3 +74,43 @@ p{
     grid-template-columns: 50px 1fr;
 }
 
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    font-family: roboto, arial;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.div_thumbnail{
+    position: relative;
+}
+
+.notifications-number-div{
+    position: relative;
+}
+
+.notifications-number{
+    position: absolute;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    top: -5px;
+    right: -5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-family: Roboto, Arial;
+
+    
+}

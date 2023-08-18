@@ -1,0 +1,36 @@
+.p_sidebar{
+    font-size: 9px;
+    margin: 0;
+    width: 65px;
+    text-align: center;
+    
+}
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    background-color: white;
+}
+
+.button{
+    height: 68px;
+    border: 0;
+    padding-left: 0;
+    background-color: white;
+}
+.button-img{
+    height: 22px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    
+}
+
+
+
+
