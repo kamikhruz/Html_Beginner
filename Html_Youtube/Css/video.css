@@ -1,3 +1,12 @@
+body{
+    padding-bottom: 500px;
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 96px ; 
+    background-color:#f9f9f9; 
+    padding-right: 24px ;
+}
+
 .main-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -95,3 +104,16 @@ p{
     position: relative;
 }
 
+@media (max-width: 750px){
+    .main-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 2000px){
+    .main-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* I completed super simple dev's first CSS tutorial */
