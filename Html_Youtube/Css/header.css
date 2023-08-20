@@ -41,6 +41,7 @@
     border-radius: 20px;
     background-color: rgba(245, 245, 245,);
     cursor: pointer;
+    position: relative;
 
 
     
@@ -67,7 +68,8 @@
     position: relative;
 }
 
-.search .tooltips{
+ .tooltips
+{
     position: absolute;
     background-color: gray;
     color: white;
@@ -81,9 +83,11 @@
     opacity: 0;
     transition: opacity 0.15s;
     pointer-events: none;
+    white-space:nowrap;
 }
 
-.search:hover .tooltips{
+.search:hover .tooltips,
+.voice-search-icon:hover .tooltips{
     opacity: 1;
 }
 
@@ -98,6 +102,7 @@
     border-radius: 2px;
     width: 0;
     box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
 }
 
 .search-image{
@@ -150,3 +155,39 @@
     border-radius: 16px;
     cursor: pointer;
 }
+
+.notifications-number-div{
+    position: relative;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+}
+
+.notifications-number{
+    position: absolute;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    top: -5px;
+    right: -5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-family: Roboto, Arial;
+
+    
+}
+
+.create:hover .tooltips,
+.youtube-apps:hover .tooltips,
+.notifications-number-div:hover .tooltips{
+    opacity: 1;
+}
+
+.create, .youtube-apps{
+    position: relative;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
