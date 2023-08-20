@@ -1,12 +1,12 @@
 .main-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
+    column-gap: 20px;
     row-gap: 30px;
 }
 
 .div_main{
-    background-color: white;
+    background-color:#f9f9f9
     
     
     
@@ -19,7 +19,8 @@ p{
     cursor: pointer;
 }
 .div_thumbnail{
-    background-color: white;
+    background-color:#f9f9f9
+    
 
 }
 
@@ -46,7 +47,7 @@ p{
 }
 
 .imgcha{
-    width: 38px;
+    width: 36px;
     border-radius: 19px;
     vertical-align: top;
     cursor: pointer;
