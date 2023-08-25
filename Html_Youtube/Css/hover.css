@@ -1,3 +1,8 @@
+.div_1{
+    display: inline-block;
+}
+
+
 .button-class{
 
     color: rgb(128, 128, 128);
@@ -33,18 +38,73 @@ img{
 
 p{
     opacity: 0;
-    background-color: white;
+    background-color: black;
     margin: 0;
+    min-width: 210px;
     line-height: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: rgb(128, 128, 128);
 }
 
-.button-class:active + .pbutton p{
+.button-class:hover + .pbutton p{
     opacity: 1;
     background-color: black;
 
     width: 210px;
 
+}
+
+.div_1:hover p{
+    opacity: 1;
+    
+    width: 210px;
+}
+
+p:hover{background-color: white;
+
+    
+}
+
+.dropdown-button{
+    display: block;
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: lightblue;
+    min-width: 200px;
+    display: none;
+
+}
+
+.dropdown-menu a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 11px 15px;
+    text-align: left;
+    line-height: 12px;
+}
+
+.dropdown-menu a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown:hover .dropdown-button{
+    background-color: grey;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline ;
 }
